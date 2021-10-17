@@ -1,0 +1,25 @@
+{
+  "name": "bpmn-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "npx webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bpmn-moddle": "^7.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "bpmn-js": "^8.7.3",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  }
+}
